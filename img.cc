@@ -6,6 +6,7 @@ void ImageTansform::GetTransformation(cv::Mat &src, cv::Mat &dst, cv::Point2d sr
 	clock_t start_1 = clock();
 	GetDstimage(src, dst);
 	clock_t end_1 = clock();
+	//add linux test
 	cout << "Running Time get transform: " << (double)(end_1 - start_1) / CLOCKS_PER_SEC << endl;
 }
 
@@ -16,7 +17,7 @@ int ImageTansform::TransformationMatrix(cv::Point2d src_vertices[4], cv::Point2d
 	cv::Mat A(8, 8, CV_64F, a), B(8, 1, CV_64F, b);
 	for (int i = 0; i < 4; ++i)
 	{
-		a[i][0] = a[i + 4][3] = src_vertices[i].x;
+		a[i][0] = a[i + 4][3] = src_vertices[i].x; 
 		a[i][1] = a[i + 4][4] = src_vertices[i].y;
 		a[i][2] = a[i + 4][5] = 1;
 		a[i][3] = a[i][4] = a[i][5] =
