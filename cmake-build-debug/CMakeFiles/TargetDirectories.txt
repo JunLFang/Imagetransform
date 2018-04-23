@@ -1,0 +1,3 @@
+/home/tony_jun/Git/imagetransform/imagetransform/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tony_jun/Git/imagetransform/imagetransform/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tony_jun/Git/imagetransform/imagetransform/cmake-build-debug/CMakeFiles/imagetransform.dir

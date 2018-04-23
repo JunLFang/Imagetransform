@@ -49,7 +49,7 @@ private:
 	//@briefGlobal parameter H matrix 
 	cv::Mat transformation_matrix_;
 	//@briefGlobal parameter H matrix elements
-	double trans_member[3][3]{ 0 };
+	double trans_member[3][3];
 };
 
 #endif
