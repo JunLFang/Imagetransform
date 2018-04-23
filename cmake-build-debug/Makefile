@@ -177,6 +177,33 @@ src/Imagetransform.cpp.s:
 	$(MAKE) -f CMakeFiles/imagetransform.dir/build.make CMakeFiles/imagetransform.dir/src/Imagetransform.cpp.s
 .PHONY : src/Imagetransform.cpp.s
 
+src/imagetransform.o: src/imagetransform.cpp.o
+
+.PHONY : src/imagetransform.o
+
+# target to build an object file
+src/imagetransform.cpp.o:
+	$(MAKE) -f CMakeFiles/imagetransform.dir/build.make CMakeFiles/imagetransform.dir/src/imagetransform.cpp.o
+.PHONY : src/imagetransform.cpp.o
+
+src/imagetransform.i: src/imagetransform.cpp.i
+
+.PHONY : src/imagetransform.i
+
+# target to preprocess a source file
+src/imagetransform.cpp.i:
+	$(MAKE) -f CMakeFiles/imagetransform.dir/build.make CMakeFiles/imagetransform.dir/src/imagetransform.cpp.i
+.PHONY : src/imagetransform.cpp.i
+
+src/imagetransform.s: src/imagetransform.cpp.s
+
+.PHONY : src/imagetransform.s
+
+# target to generate assembly for a file
+src/imagetransform.cpp.s:
+	$(MAKE) -f CMakeFiles/imagetransform.dir/build.make CMakeFiles/imagetransform.dir/src/imagetransform.cpp.s
+.PHONY : src/imagetransform.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... src/Imagetransform.o"
 	@echo "... src/Imagetransform.i"
 	@echo "... src/Imagetransform.s"
+	@echo "... src/imagetransform.o"
+	@echo "... src/imagetransform.i"
+	@echo "... src/imagetransform.s"
 .PHONY : help
 
 

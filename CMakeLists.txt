@@ -1,7 +1,18 @@
 cmake_minimum_required(VERSION 3.4)
 project(imagetransform)
 
-set(CMAKE_CXX_STANDARD 11)
+#-------------------------------------- 编译器设置 --------------------------------------
+set(CMAKE_BUILD_TYPE Debug)
+#set(CMAKE_BUILD_TYPE Release)
+
+if(CMAKE_BUILD_TYPE STREQUAL "Release")
+   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -std=c++11 -fPIC")
+else()
+   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -O0 -std=c++11 -fPIC -rdynamic")
+endif()
+
+
+#-------------------------------------- -添加项目- --------------------------------------
 #头文件
 file(GLOB_RECURSE HEADER_FILES ${CMAKE_CURRENT_SOURCE_DIR}/include/*.h)
 #file(GLOB_RECURSE HEADER_FILES ${CMAKE_CURRENT_SOURCE_DIR}/include/*.h)
@@ -35,5 +46,4 @@ target_link_libraries(
         imagetransform
         #jsoncpp
         ${OpenCV_LIBS}
-        ${Eigen3_LIBS}
-)
+        ${Eigen3_LIBS})

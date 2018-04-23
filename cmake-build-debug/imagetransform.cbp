@@ -95,10 +95,16 @@
 		<Unit filename="/home/tony_jun/Git/imagetransform/imagetransform/include/Imagetransform.h">
 			<Option target="imagetransform"/>
 		</Unit>
+		<Unit filename="/home/tony_jun/Git/imagetransform/imagetransform/include/imagetransform.h">
+			<Option target="imagetransform"/>
+		</Unit>
 		<Unit filename="/home/tony_jun/Git/imagetransform/imagetransform/main.cpp">
 			<Option target="imagetransform"/>
 		</Unit>
 		<Unit filename="/home/tony_jun/Git/imagetransform/imagetransform/src/Imagetransform.cpp">
+			<Option target="imagetransform"/>
+		</Unit>
+		<Unit filename="/home/tony_jun/Git/imagetransform/imagetransform/src/imagetransform.cpp">
 			<Option target="imagetransform"/>
 		</Unit>
 		<Unit filename="/home/tony_jun/Git/imagetransform/imagetransform/CMakeLists.txt">

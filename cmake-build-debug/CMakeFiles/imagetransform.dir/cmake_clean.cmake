@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/imagetransform.dir/src/Imagetransform.cpp.o"
+  "CMakeFiles/imagetransform.dir/src/imagetransform.cpp.o"
   "CMakeFiles/imagetransform.dir/main.cpp.o"
   "imagetransform.pdb"
   "imagetransform"

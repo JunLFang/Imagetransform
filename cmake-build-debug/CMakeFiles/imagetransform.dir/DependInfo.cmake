@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/tony_jun/Git/imagetransform/imagetransform/main.cpp" "/home/tony_jun/Git/imagetransform/imagetransform/cmake-build-debug/CMakeFiles/imagetransform.dir/main.cpp.o"
   "/home/tony_jun/Git/imagetransform/imagetransform/src/Imagetransform.cpp" "/home/tony_jun/Git/imagetransform/imagetransform/cmake-build-debug/CMakeFiles/imagetransform.dir/src/Imagetransform.cpp.o"
+  "/home/tony_jun/Git/imagetransform/imagetransform/src/imagetransform.cpp" "/home/tony_jun/Git/imagetransform/imagetransform/cmake-build-debug/CMakeFiles/imagetransform.dir/src/imagetransform.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
